@@ -1,14 +1,16 @@
 <script setup>
 import Header from './components/Header.vue';
 import Footer from './components/Footer.vue';
-import Fish from './components/Fish.vue';
+import Welcome from './components/Welcome.vue';
+import Menu from './components/Menu.vue';
 
 
 </script>
 
 <template>
     <Header></Header>
-    <Fish></Fish>
+    <Menu></Menu>
+    <Welcome></Welcome>
     <Footer></Footer>
 </template>
 

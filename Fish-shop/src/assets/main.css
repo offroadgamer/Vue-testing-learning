@@ -42,6 +42,7 @@ a,
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 	margin: 400px 0;
 }
 
@@ -58,7 +59,28 @@ a,
 	width: 98vw;
 	height: 3px;
 	background-color: grey;
-	margin-bottom: 50px;
+}
+
+.menu-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100px;
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0;
+	list-style: none;
+}
+
+li {
+	margin: 0 50px;
+	font-size: 17px;
 }
 
 @media (hover: hover) {

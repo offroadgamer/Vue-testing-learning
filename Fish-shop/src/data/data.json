@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Cod",
+        "type": "white fish",
+        "size": 0.7,
+        "weight": 5.76
+    },
+    {
+        "name": "Salmon",
+        "type": "red fish",
+        "size": 1,
+        "weight": 8.01
+    },
+    {
+        "name": "Mackerel",
+        "type": "white fish", 
+        "size": 0.4,
+        "weight": 2.33
+    }
+]
